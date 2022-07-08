@@ -2,6 +2,9 @@
 FFX game and speedrun information dump site.
 
 # Docs
-[FFX HD Seeds](./hd-seeds/)
+{% for page in site.pages -%}
+{%- if page.title and page.url != "/" %}
+[{{ page.title }}](.{{ page.url }})
 
-[Status chance RNG](./status-chance-rng/)
+{% endif -%}
+{%- endfor %}
