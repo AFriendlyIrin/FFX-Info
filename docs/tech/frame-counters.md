@@ -9,12 +9,12 @@ title: "Frame counters"
 {: .no_toc }
 
 1. TOC
-   {:toc}
+{:toc}
 
-# Tracking in game time
+## Tracking in game time
 External tools can track the passage of time in the game can by observing frame counters. These come in multiple varieties- 30 and 60FPS counters, and those that pause when the game does and those that don't.
 
-# Frame counters
+## Frame counters
 The following table represents the most common frame counters:
 
 |  Memory address | FPS |     Timing start | Pausable |

@@ -9,15 +9,15 @@ title: "HD Seeds"
 {: .no_toc }
 
 1. TOC
-   {:toc}
+{:toc}
 
-# Seed generation
+## Seed generation
 FFX (in every version) calculates a starting seed when opening the game (some time between the actual start and the intro cutscene playing) and when pressing the "New Game" button using the amount of frames since boot up and the current date and time to make it as random as possible.
 
-# HD version seeds
+### HD version seeds
 Due to a bug in the function that generates a seed number (the frame counter always stays at 0) only the 256 seeds in the table below can be generated in the HD version of FFX.
 
-# HD Console seeds
+### HD Console seeds
 On the PS4 and PS5 versions (and probably on all the other console versions too) of FFX HD only 64 seeds can be generated at any given time via normal means (i.e. by not changing the console clock):
 - from year 1984 to 2047 seeds 192 to 255;
 - from year 2048 to 2111 seeds 0 to 63;
@@ -26,7 +26,7 @@ On the PS4 and PS5 versions (and probably on all the other console versions too)
 
 Since the clock on PS5 can be set to anywhere between the start of 2020 (2000 for PS4) to the end of 2099, only seeds 0 to 63 and 192 to 255 can be accessed even with clock manipulation.
 
-# Seeds sheet
+## Seeds sheet
 Since on the HD versions the only value that matters when generating a Seed Number (the actual value used by the game to generate RNG values) is the one generated from the current date and time, it can be used as an identifier for the seeds (hence the name Seed ID).
 
 When starting a new game the first 3 damage values that usually happen in a speedrun (the 1st and 2nd Auron attacks and the 1st Tidus attack vs the Sinscales in Dream Zanarkand) can be used to find out what seed the game generated.
