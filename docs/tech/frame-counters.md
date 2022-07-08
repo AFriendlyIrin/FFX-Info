@@ -5,7 +5,7 @@ title: "Frame counters"
 # Frame counters
 {: .no_toc }
 
-# Table of contents
+## Table of contents
 {: .no_toc }
 
 1. TOC
