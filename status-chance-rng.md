@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "Status chance RNG"
-permalink: /status-chance-rng/
 ---
 
 # Formula

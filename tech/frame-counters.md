@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "Frame counters"
-permalink: /tech/frame-counters/
 ---
 
 External tools can track the passage of time in the game can by observing frame counters. These come in multiple varieties- 30 and 60FPS counters, and those that pause when the game does and those that don't.

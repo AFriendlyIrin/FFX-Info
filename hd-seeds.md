@@ -1,8 +1,7 @@
 ---
-layout: page
 title: "HD Seeds"
-permalink: /hd-seeds/
 ---
+
 # Notes on seed generation
 FFX (in every version) calculates a starting seed when opening the game (some time between the actual start and the intro cutscene playing) and when pressing the "New Game" button using the amount of frames since boot up and the current date and time to make it as random as possible.
 
