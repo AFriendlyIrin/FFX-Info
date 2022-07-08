@@ -1,15 +1,24 @@
 ---
+parent: "RNG"
 title: "HD Seeds"
 ---
+# HD Seeds
+{: .no_toc }
 
-# Notes on seed generation
+# Table of contents
+{: .no_toc }
+
+1. TOC
+   {:toc}
+
+# Seed generation
 FFX (in every version) calculates a starting seed when opening the game (some time between the actual start and the intro cutscene playing) and when pressing the "New Game" button using the amount of frames since boot up and the current date and time to make it as random as possible.
 
-# Notes on the HD version
+# HD version seeds
 Due to a bug in the function that generates a seed number (the frame counter always stays at 0) only the 256 seeds in the table below can be generated in the HD version of FFX.
 
-# Notes on HD Console
-On the PS4 and PS5 versions (and probably on all the other console versions too) of FFX HD only 64 of these can be generated at any given time via normal means (i.e. by not changing the console clock):
+# HD Console seeds
+On the PS4 and PS5 versions (and probably on all the other console versions too) of FFX HD only 64 seeds can be generated at any given time via normal means (i.e. by not changing the console clock):
 - from year 1984 to 2047 seeds 192 to 255;
 - from year 2048 to 2111 seeds 0 to 63;
 - from year 2112 to 2175 seeds 64 to 127;

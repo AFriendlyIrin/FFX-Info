@@ -1,13 +1,4 @@
-# FFX Info
-FFX game and speedrun information dump site.
+# FFX Wiki
+FFX game and speedrun wiki.
 
-# Docs
-{% for page in site.pages -%}
-{%- if page.title and page.url != "/" -%}
-{%- assign link_text = page.title -%}
-{%- if page.dir != "/" -%}
-{%- assign link_text = page.dir | append: ": " | append: link_text -%}
-{%- endif %}
-[{{ link_text }}](.{{ page.url }})
-{% endif -%}
-{%- endfor %}
+You can find the homepage [here](https://grayfox96.github.io/FFX-Info/).

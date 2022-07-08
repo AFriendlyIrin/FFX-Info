@@ -1,6 +1,15 @@
 ---
-title: "Status chance RNG"
+parent: "RNG"
+title: "Status chance"
 ---
+# Status chance
+{: .no_toc }
+
+# Table of contents
+{: .no_toc }
+
+1. TOC
+   {:toc}
 
 # Formula
 Status RNG is advanced before any check is performed.

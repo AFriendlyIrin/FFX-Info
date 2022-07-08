@@ -1,0 +1,3 @@
+permalink: /:path/:basename
+remote_theme: just-the-docs/just-the-docs
+nav_sort: case_insensitive
