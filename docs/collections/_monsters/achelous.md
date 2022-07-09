@@ -9,16 +9,16 @@ monster_data:
     cost: 127500
     item: Healing Spring x16
   elemental_affinities:
-    Fire: Resists
-    Holy: Neutral
-    Ice: Neutral
-    Thunder: Weak
-    Water: Immune
+    fire: Resists
+    holy: Neutral
+    ice: Neutral
+    thunder: Weak
+    water: Immune
   equipment:
     ability_arrays:
-      Auron:
-        Armor:
-        - null
+      auron:
+        armor:
+        - Nothing
         - MP +10%
         - MP +10%
         - MP +10%
@@ -26,7 +26,7 @@ monster_data:
         - MP +10%
         - Auto-Med
         - Auto-Med
-        Weapon:
+        weapon:
         - Piercing
         - Strength +5%
         - Strength +5%
@@ -35,9 +35,9 @@ monster_data:
         - Magic +5%
         - Magic +10%
         - Magic +10%
-      Kimahri:
-        Armor:
-        - null
+      kimahri:
+        armor:
+        - Nothing
         - MP +10%
         - MP +10%
         - MP +10%
@@ -45,7 +45,7 @@ monster_data:
         - MP +10%
         - Auto-Med
         - Auto-Med
-        Weapon:
+        weapon:
         - Piercing
         - Strength +5%
         - Strength +5%
@@ -54,9 +54,9 @@ monster_data:
         - Magic +5%
         - Magic +10%
         - Magic +10%
-      Lulu:
-        Armor:
-        - null
+      lulu:
+        armor:
+        - Nothing
         - MP +10%
         - MP +10%
         - MP +10%
@@ -64,8 +64,8 @@ monster_data:
         - MP +10%
         - Auto-Med
         - Auto-Med
-        Weapon:
-        - null
+        weapon:
+        - Nothing
         - Strength +5%
         - Strength +5%
         - Strength +5%
@@ -73,9 +73,9 @@ monster_data:
         - Magic +5%
         - Magic +10%
         - Magic +10%
-      Rikku:
-        Armor:
-        - null
+      rikku:
+        armor:
+        - Nothing
         - MP +10%
         - MP +10%
         - MP +10%
@@ -83,8 +83,8 @@ monster_data:
         - MP +10%
         - Auto-Med
         - Auto-Med
-        Weapon:
-        - null
+        weapon:
+        - Nothing
         - Strength +5%
         - Strength +5%
         - Strength +5%
@@ -92,9 +92,9 @@ monster_data:
         - Magic +5%
         - Magic +10%
         - Magic +10%
-      Tidus:
-        Armor:
-        - null
+      tidus:
+        armor:
+        - Nothing
         - MP +10%
         - MP +10%
         - MP +10%
@@ -102,8 +102,8 @@ monster_data:
         - MP +10%
         - Auto-Med
         - Auto-Med
-        Weapon:
-        - null
+        weapon:
+        - Nothing
         - Strength +5%
         - Strength +5%
         - Strength +5%
@@ -111,9 +111,9 @@ monster_data:
         - Magic +5%
         - Magic +10%
         - Magic +10%
-      Wakka:
-        Armor:
-        - null
+      wakka:
+        armor:
+        - Nothing
         - MP +10%
         - MP +10%
         - MP +10%
@@ -121,8 +121,8 @@ monster_data:
         - MP +10%
         - Auto-Med
         - Auto-Med
-        Weapon:
-        - null
+        weapon:
+        - Nothing
         - Strength +5%
         - Strength +5%
         - Strength +5%
@@ -130,9 +130,9 @@ monster_data:
         - Magic +5%
         - Magic +10%
         - Magic +10%
-      Yuna:
-        Armor:
-        - null
+      yuna:
+        armor:
+        - Nothing
         - MP +10%
         - MP +10%
         - MP +10%
@@ -140,8 +140,8 @@ monster_data:
         - MP +10%
         - Auto-Med
         - Auto-Med
-        Weapon:
-        - null
+        weapon:
+        - Nothing
         - Strength +5%
         - Strength +5%
         - Strength +5%
@@ -177,62 +177,62 @@ monster_data:
   item_1:
     drop_chance: 255
     normal:
-      Common: Power Sphere x1
-      Rare: Power Sphere x1
+      common: Power Sphere x1
+      rare: Power Sphere x1
     overkill:
-      Common: Power Sphere x2
-      Rare: Power Sphere x2
+      common: Power Sphere x2
+      rare: Power Sphere x2
   item_2:
     drop_chance: 0
     normal:
-      Common: null
-      Rare: null
+      common: Nothing
+      rare: Nothing
     overkill:
-      Common: null
-      Rare: null
+      common: Nothing
+      rare: Nothing
   name: Achelous
   poison_tick_damage: 1275
   stats:
-    Accuracy: 0
-    Agility: 20
-    Defense: 10
-    Evasion: 0
-    HP: 5100
-    Luck: 15
-    MP: 85
-    Magic: 52
-    Magic defense: 20
-    Strength: 33
+    accuracy: 0
+    agility: 20
+    defense: 10
+    evasion: 0
+    hp: 5100
+    luck: 15
+    mp: 85
+    magic: 52
+    magic_defense: 20
+    strength: 33
     overkill_threshold: 7500
   status_resistances:
-    Armor Break: 0
-    Berserk: 0
-    Confuse: 0
-    Dark: 0
-    Death: 0
-    Haste: 0
-    Magic Break: 0
-    Mental Break: 0
-    NulBlaze: 0
-    NulFrost: 0
-    NulShock: 0
-    NulTide: 0
-    Petrify: 0
-    Poison: 0
-    Power Break: 0
-    Protect: 0
-    Provoke: 0
-    Reflect: 0
-    Regen: 0
-    Shell: 0
-    Silence: 0
-    Sleep: 20
-    Slow: 255
-    Threaten: 0
-    Zombie: 0
+    armor_break: 0
+    berserk: 0
+    confuse: 0
+    dark: 0
+    death: 0
+    haste: 0
+    magic_break: 0
+    mental_break: 0
+    nulblaze: 0
+    nulfrost: 0
+    nulshock: 0
+    nultide: 0
+    petrify: 0
+    poison: 0
+    power_break: 0
+    protect: 0
+    provoke: 0
+    reflect: 0
+    regen: 0
+    shell: 0
+    silence: 0
+    sleep: 20
+    slow: 255
+    threaten: 0
+    zombie: 0
   steal:
-    Common: Water Gem x2
-    Rare: Healing Spring x1
+    common: Water Gem x2
+    rare: Healing Spring x1
     base_chance: 255
   undead: false
   zanmato_level: 0

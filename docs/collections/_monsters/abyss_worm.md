@@ -7,17 +7,17 @@ monster_data:
   auto_statuses: []
   bribe:
     cost: 12000000
-    item: null
+    item: Nothing
   elemental_affinities:
-    Fire: Neutral
-    Holy: Neutral
-    Ice: Neutral
-    Thunder: Neutral
-    Water: Neutral
+    fire: Neutral
+    holy: Neutral
+    ice: Neutral
+    thunder: Neutral
+    water: Neutral
   equipment:
     ability_arrays:
-      Auron:
-        Armor:
+      auron:
+        armor:
         - Defense +20%
         - Defense +20%
         - Defense +10%
@@ -26,7 +26,7 @@ monster_data:
         - Defense +5%
         - Defense +5%
         - Defense +5%
-        Weapon:
+        weapon:
         - Strength +20%
         - Strength +20%
         - Strength +10%
@@ -35,8 +35,8 @@ monster_data:
         - Strength +5%
         - Strength +5%
         - Strength +5%
-      Kimahri:
-        Armor:
+      kimahri:
+        armor:
         - Defense +20%
         - Defense +20%
         - Defense +10%
@@ -45,7 +45,7 @@ monster_data:
         - Defense +5%
         - Defense +5%
         - Defense +5%
-        Weapon:
+        weapon:
         - Strength +20%
         - Strength +20%
         - Strength +10%
@@ -54,8 +54,8 @@ monster_data:
         - Strength +5%
         - Strength +5%
         - Strength +5%
-      Lulu:
-        Armor:
+      lulu:
+        armor:
         - Defense +20%
         - Defense +20%
         - Defense +10%
@@ -64,7 +64,7 @@ monster_data:
         - Defense +5%
         - Defense +5%
         - Defense +5%
-        Weapon:
+        weapon:
         - Strength +20%
         - Strength +20%
         - Strength +10%
@@ -73,8 +73,8 @@ monster_data:
         - Strength +5%
         - Strength +5%
         - Strength +5%
-      Rikku:
-        Armor:
+      rikku:
+        armor:
         - Defense +20%
         - Defense +20%
         - Defense +10%
@@ -83,7 +83,7 @@ monster_data:
         - Defense +5%
         - Defense +5%
         - Defense +5%
-        Weapon:
+        weapon:
         - Strength +20%
         - Strength +20%
         - Strength +10%
@@ -92,8 +92,8 @@ monster_data:
         - Strength +5%
         - Strength +5%
         - Strength +5%
-      Tidus:
-        Armor:
+      tidus:
+        armor:
         - Defense +20%
         - Defense +20%
         - Defense +10%
@@ -102,7 +102,7 @@ monster_data:
         - Defense +5%
         - Defense +5%
         - Defense +5%
-        Weapon:
+        weapon:
         - Strength +20%
         - Strength +20%
         - Strength +10%
@@ -111,8 +111,8 @@ monster_data:
         - Strength +5%
         - Strength +5%
         - Strength +5%
-      Wakka:
-        Armor:
+      wakka:
+        armor:
         - Defense +20%
         - Defense +20%
         - Defense +10%
@@ -121,7 +121,7 @@ monster_data:
         - Defense +5%
         - Defense +5%
         - Defense +5%
-        Weapon:
+        weapon:
         - Strength +20%
         - Strength +20%
         - Strength +10%
@@ -130,8 +130,8 @@ monster_data:
         - Strength +5%
         - Strength +5%
         - Strength +5%
-      Yuna:
-        Armor:
+      yuna:
+        armor:
         - Defense +20%
         - Defense +20%
         - Defense +10%
@@ -140,7 +140,7 @@ monster_data:
         - Defense +5%
         - Defense +5%
         - Defense +5%
-        Weapon:
+        weapon:
         - Strength +20%
         - Strength +20%
         - Strength +10%
@@ -177,64 +177,64 @@ monster_data:
   item_1:
     drop_chance: 255
     normal:
-      Common: Stamina Tonic x1
-      Rare: Dark Matter x1
+      common: Stamina Tonic x1
+      rare: Dark Matter x1
     overkill:
-      Common: Stamina Tonic x2
-      Rare: Dark Matter x2
+      common: Stamina Tonic x2
+      rare: Dark Matter x2
   item_2:
     drop_chance: 0
     normal:
-      Common: null
-      Rare: null
+      common: Nothing
+      rare: Nothing
     overkill:
-      Common: null
-      Rare: null
+      common: Nothing
+      rare: Nothing
   name: Abyss Worm
   poison_tick_damage: 0
   stats:
-    Accuracy: 120
-    Agility: 22
-    Defense: 24
-    Evasion: 0
-    HP: 480000
-    Luck: 15
-    MP: 200
-    Magic: 93
-    Magic defense: 63
-    Strength: 60
+    accuracy: 120
+    agility: 22
+    defense: 24
+    evasion: 0
+    hp: 480000
+    luck: 15
+    mp: 200
+    magic: 93
+    magic_defense: 63
+    strength: 60
     overkill_threshold: 12000
   status_resistances:
-    Armor Break: 255
-    Berserk: 255
-    Confuse: 255
-    Dark: 255
-    Death: 255
-    Haste: 0
-    Magic Break: 255
-    Mental Break: 255
-    NulBlaze: 0
-    NulFrost: 0
-    NulShock: 0
-    NulTide: 0
-    Petrify: 255
-    Poison: 255
-    Power Break: 255
-    Protect: 0
-    Provoke: 255
-    Reflect: 0
-    Regen: 0
-    Shell: 0
-    Silence: 255
-    Sleep: 255
-    Slow: 255
-    Threaten: 0
-    Zombie: 255
+    armor_break: 255
+    berserk: 255
+    confuse: 255
+    dark: 255
+    death: 255
+    haste: 0
+    magic_break: 255
+    mental_break: 255
+    nulblaze: 0
+    nulfrost: 0
+    nulshock: 0
+    nultide: 0
+    petrify: 255
+    poison: 255
+    power_break: 255
+    protect: 0
+    provoke: 255
+    reflect: 0
+    regen: 0
+    shell: 0
+    silence: 255
+    sleep: 255
+    slow: 255
+    threaten: 0
+    zombie: 255
   steal:
-    Common: Shadow Gem x4
-    Rare: Stamina Tablet x1
+    common: Shadow Gem x4
+    rare: Stamina Tablet x1
     base_chance: 255
   undead: false
   zanmato_level: 3
-monster_id: abyss_worm
+monster_id: abyss-worm
 ---

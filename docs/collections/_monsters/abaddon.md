@@ -9,17 +9,17 @@ monster_data:
   - Nulall
   bribe:
     cost: 9500000
-    item: null
+    item: Nothing
   elemental_affinities:
-    Fire: Neutral
-    Holy: Neutral
-    Ice: Neutral
-    Thunder: Neutral
-    Water: Neutral
+    fire: Neutral
+    holy: Neutral
+    ice: Neutral
+    thunder: Neutral
+    water: Neutral
   equipment:
     ability_arrays:
-      Auron:
-        Armor:
+      auron:
+        armor:
         - Magic Def +20%
         - Magic Def +20%
         - Magic Def +10%
@@ -28,7 +28,7 @@ monster_data:
         - Magic Def +5%
         - Magic Def +5%
         - Magic Def +5%
-        Weapon:
+        weapon:
         - Magic +20%
         - Magic +20%
         - Magic +10%
@@ -37,8 +37,8 @@ monster_data:
         - Magic +5%
         - Magic +5%
         - Magic +5%
-      Kimahri:
-        Armor:
+      kimahri:
+        armor:
         - Magic Def +20%
         - Magic Def +20%
         - Magic Def +10%
@@ -47,7 +47,7 @@ monster_data:
         - Magic Def +5%
         - Magic Def +5%
         - Magic Def +5%
-        Weapon:
+        weapon:
         - Magic +20%
         - Magic +20%
         - Magic +10%
@@ -56,8 +56,8 @@ monster_data:
         - Magic +5%
         - Magic +5%
         - Magic +5%
-      Lulu:
-        Armor:
+      lulu:
+        armor:
         - Magic Def +20%
         - Magic Def +20%
         - Magic Def +10%
@@ -66,7 +66,7 @@ monster_data:
         - Magic Def +5%
         - Magic Def +5%
         - Magic Def +5%
-        Weapon:
+        weapon:
         - Magic +20%
         - Magic +20%
         - Magic +10%
@@ -75,8 +75,8 @@ monster_data:
         - Magic +5%
         - Magic +5%
         - Magic +5%
-      Rikku:
-        Armor:
+      rikku:
+        armor:
         - Magic Def +20%
         - Magic Def +20%
         - Magic Def +10%
@@ -85,7 +85,7 @@ monster_data:
         - Magic Def +5%
         - Magic Def +5%
         - Magic Def +5%
-        Weapon:
+        weapon:
         - Magic +20%
         - Magic +20%
         - Magic +10%
@@ -94,8 +94,8 @@ monster_data:
         - Magic +5%
         - Magic +5%
         - Magic +5%
-      Tidus:
-        Armor:
+      tidus:
+        armor:
         - Magic Def +20%
         - Magic Def +20%
         - Magic Def +10%
@@ -104,7 +104,7 @@ monster_data:
         - Magic Def +5%
         - Magic Def +5%
         - Magic Def +5%
-        Weapon:
+        weapon:
         - Magic +20%
         - Magic +20%
         - Magic +10%
@@ -113,8 +113,8 @@ monster_data:
         - Magic +5%
         - Magic +5%
         - Magic +5%
-      Wakka:
-        Armor:
+      wakka:
+        armor:
         - Magic Def +20%
         - Magic Def +20%
         - Magic Def +10%
@@ -123,7 +123,7 @@ monster_data:
         - Magic Def +5%
         - Magic Def +5%
         - Magic Def +5%
-        Weapon:
+        weapon:
         - Magic +20%
         - Magic +20%
         - Magic +10%
@@ -132,8 +132,8 @@ monster_data:
         - Magic +5%
         - Magic +5%
         - Magic +5%
-      Yuna:
-        Armor:
+      yuna:
+        armor:
         - Magic Def +20%
         - Magic Def +20%
         - Magic Def +10%
@@ -142,7 +142,7 @@ monster_data:
         - Magic Def +5%
         - Magic Def +5%
         - Magic Def +5%
-        Weapon:
+        weapon:
         - Magic +20%
         - Magic +20%
         - Magic +10%
@@ -179,62 +179,62 @@ monster_data:
   item_1:
     drop_chance: 255
     normal:
-      Common: Mana Tablet x1
-      Rare: Dark Matter x1
+      common: Mana Tablet x1
+      rare: Dark Matter x1
     overkill:
-      Common: Mana Tablet x2
-      Rare: Dark Matter x2
+      common: Mana Tablet x2
+      rare: Dark Matter x2
   item_2:
     drop_chance: 0
     normal:
-      Common: null
-      Rare: null
+      common: Nothing
+      rare: Nothing
     overkill:
-      Common: null
-      Rare: null
+      common: Nothing
+      rare: Nothing
   name: Abaddon
   poison_tick_damage: 0
   stats:
-    Accuracy: 130
-    Agility: 120
-    Defense: 180
-    Evasion: 0
-    HP: 380000
-    Luck: 15
-    MP: 780
-    Magic: 95
-    Magic defense: 160
-    Strength: 40
+    accuracy: 130
+    agility: 120
+    defense: 180
+    evasion: 0
+    hp: 380000
+    luck: 15
+    mp: 780
+    magic: 95
+    magic_defense: 160
+    strength: 40
     overkill_threshold: 10000
   status_resistances:
-    Armor Break: 255
-    Berserk: 255
-    Confuse: 255
-    Dark: 255
-    Death: 255
-    Haste: 0
-    Magic Break: 255
-    Mental Break: 255
-    NulBlaze: 0
-    NulFrost: 0
-    NulShock: 0
-    NulTide: 0
-    Petrify: 255
-    Poison: 255
-    Power Break: 255
-    Protect: 0
-    Provoke: 255
-    Reflect: 0
-    Regen: 0
-    Shell: 0
-    Silence: 255
-    Sleep: 255
-    Slow: 255
-    Threaten: 0
-    Zombie: 255
+    armor_break: 255
+    berserk: 255
+    confuse: 255
+    dark: 255
+    death: 255
+    haste: 0
+    magic_break: 255
+    mental_break: 255
+    nulblaze: 0
+    nulfrost: 0
+    nulshock: 0
+    nultide: 0
+    petrify: 255
+    poison: 255
+    power_break: 255
+    protect: 0
+    provoke: 255
+    reflect: 0
+    regen: 0
+    shell: 0
+    silence: 255
+    sleep: 255
+    slow: 255
+    threaten: 0
+    zombie: 255
   steal:
-    Common: Purifying Salt x3
-    Rare: Shining Gem x1
+    common: Purifying Salt x3
+    rare: Shining Gem x1
     base_chance: 255
   undead: false
   zanmato_level: 3

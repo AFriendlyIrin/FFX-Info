@@ -5,6 +5,8 @@ layout: page
 # {{ page.monster_data.name }}
 {: .no_toc }
 
+{{ content }}
+
 ## Table of contents
 {: .no_toc }
 
@@ -12,10 +14,125 @@ layout: page
 {:toc}
 
 ## Stats
-{{ page.monster_data.stats }}
+{% assign stats = page.monster_data.stats %}
+| HP             | MP             | Overkill threshold             |
+| :------------: | :------------: | :----------------------------: |
+| {{ stats.hp }} | {{ stats.mp }} | {{ stats.overkill_threshold }} |
+
+| Strength             | Defense             | Magic             | Magic Defense             |
+| :------------------: | :-----------------: | :---------------: | :-----------------------: |
+| {{ stats.strength }} | {{ stats.defense }} | {{ stats.magic }} | {{ stats.magic_defense }} |
+
+| Agility             | Luck             | Evasion             | Accuracy             |
+| :-----------------: | :--------------: | :-----------------: | :------------------: |
+| {{ stats.agility }} | {{ stats.luck }} | {{ stats.evasion }} | {{ stats.accuracy }} |
+
+## Elemental affinities
+{% assign elements = page.monster_data.elemental_affinities %}
+| Fire                | Ice                | Thunder                | Water                | Holy                |
+| :-----------------: | :----------------: | :--------------------: | :------------------: | :-----------------: |
+| {{ elements.fire }} | {{ elements.ice }} | {{ elements.thunder }} | {{ elements.water }} | {{ elements.holy }} |
 
 ## Status Resistances
-{{ page.monster_data.status_resistances }}
+{% assign statuses = page.monster_data.status_resistances %}
+| Death                | Zombie                | Petrify                | Poison                | Power Break                |
+| :------------------: | :-------------------: | :--------------------: | :-------------------: | :------------------------: |
+| {{ statuses.death }} | {{ statuses.zombie }} | {{ statuses.petrify }} | {{ statuses.poison }} | {{ statuses.power_break }} |
+
+| Magic Break | Armor Break | Mental Break | Confuse | Berserk |
+| :------------------------: | :------------------------: | :-------------------------: | :--------------------: | :--------------------: |
+| {{ statuses.magic_break }} | {{ statuses.armor_break }} | {{ statuses.mental_break }} | {{ statuses.confuse }} | {{ statuses.berserk }} |
+
+| Provoke                | Threaten                | Sleep                | Silence                | Dark                |
+| :--------------------: | :---------------------: | :------------------: | :--------------------: | :-----------------: |
+| {{ statuses.provoke }} | {{ statuses.threaten }} | {{ statuses.sleep }} | {{ statuses.silence }} | {{ statuses.dark }} |
+
+| Protect                | Shell                | Reflect                | NulBlaze                | NulFrost                |
+| :--------------------: | :------------------: | :--------------------: | :---------------------: | :---------------------: |
+| {{ statuses.protect }} | {{ statuses.shell }} | {{ statuses.reflect }} | {{ statuses.nulblaze }} | {{ statuses.nulfrost }} |
+
+| NulShock                | NulTide                | Regen                | Haste                | Slow                |
+| :---------------------: | :--------------------: | :------------------: | :------------------: | :-----------------: |
+| {{ statuses.nulshock }} | {{ statuses.nultide }} | {{ statuses.regen }} | {{ statuses.haste }} | {{ statuses.slow }} |
+
+## Spoils
+Gil: {{ page.monster_data.gil }}
+
+AP (Overkill): {{ page.monster_data.ap.normal }} ({{ page.monster_data.ap.overkill }})
+
+{% assign item_1 = page.monster_data.item_1 %}
+Item 1 ({{ item_1.drop_chance | times: 100 | divided_by: 255 }}% Drop Chance):
+
+| Common (Overkill)                                         | Rare (Overkill)                                       |
+| :-------------------------------------------------------: | :---------------------------------------------------: |
+| {{ item_1.normal.common }} ({{ item_1.overkill.common }}) | {{ item_1.normal.rare }} ({{ item_1.overkill.rare }}) |
+
+{% assign item_2 = page.monster_data.item_2 %}
+Item 2 ({{ item_2.drop_chance | times: 100 | divided_by: 255 }}% Drop Chance):
+
+| Common (Overkill)                                         | Rare (Overkill)                                       |
+| :-------------------------------------------------------: | :---------------------------------------------------: |
+| {{ item_2.normal.common }} ({{ item_2.overkill.common }}) | {{ item_2.normal.rare }} ({{ item_2.overkill.rare }}) |
+
+{% assign steal = page.monster_data.steal %}
+Steal ({{ steal.base_chance | times: 100 | divided_by: 255 }}% Base Chance):
+
+| Common             | Rare             |
+| :----------------: | :--------------: |
+| {{ steal.common }} | {{ steal.rare }} |
+
+{% assign bribe = page.monster_data.bribe %}
+Bribe: {{ bribe.item }}
+
+## Equipment
+{% assign equip = page.monster_data.equipment %}
+
+Equipment Drop Chance: {{ equip.drop_chance | times: 100 | divided_by: 255 }}%
+
+Base Weapon Damage: {{ equip.base_weapon_damage }}
+
+Equipment Bonus Critical Chance: {{ equip.bonus_critical_chance }}
+
+Total Slots Rolls: {{ equip.slots_range | join: ", " }}
+
+Max Abilities Rolls: {{ equip.max_ability_rolls_range | join: ", " }}
+
+{% assign ability_arrays = page.monster_data.equipment.ability_arrays %}
+Weapon Abilities:
+
+| Character | Guaranteed Ability | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-------: | :----------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Tidus     | {{ ability_arrays.tidus.weapon | join: " | " }} |
+| Yuna      | {{ ability_arrays.yuna.weapon | join: " | " }} |
+| Auron     | {{ ability_arrays.auron.weapon | join: " | " }} |
+| Kimahri   | {{ ability_arrays.kimahri.weapon | join: " | " }} |
+| Wakka     | {{ ability_arrays.wakka.weapon | join: " | " }} |
+| Lulu      | {{ ability_arrays.lulu.weapon | join: " | " }} |
+| Rikku     | {{ ability_arrays.rikku.weapon | join: " | " }} |
+
+Armor Abilities:
+
+| Character | Guaranteed Ability | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-------: | :----------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Tidus     | {{ ability_arrays.tidus.armor | join: " | " }} |
+| Yuna      | {{ ability_arrays.yuna.armor | join: " | " }} |
+| Auron     | {{ ability_arrays.auron.armor | join: " | " }} |
+| Kimahri   | {{ ability_arrays.kimahri.armor | join: " | " }} |
+| Wakka     | {{ ability_arrays.wakka.armor | join: " | " }} |
+| Lulu      | {{ ability_arrays.lulu.armor | join: " | " }} |
+| Rikku     | {{ ability_arrays.rikku.armor | join: " | " }} |
+
+## Misc
+
+Poison tick damage: {{ page.monster_data.poison_tick_damage }}
+
+Zanmato Level: {{ page.monster_data.zanmato_level }}
+
+Armored: {{ page.monster_data.armored }}
+
+Undead: {{ page.monster_data.undead }}
+
+Auto Statuses: {{ page.monster_data.auto_statuses | join: ", " }}
 
 {% endcapture %}
 {{ md | markdownify }}
