@@ -1,0 +1,21 @@
+---
+layout: page
+---
+{% capture md %}
+# {{ page.monster_data.name }}
+{: .no_toc }
+
+## Table of contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+## Stats
+{{ page.monster_data.stats }}
+
+## Status Resistances
+{{ page.monster_data.status_resistances }}
+
+{% endcapture %}
+{{ md | markdownify }}

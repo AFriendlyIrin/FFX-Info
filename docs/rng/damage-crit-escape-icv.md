@@ -81,8 +81,8 @@ icv = (base ctb * 300) // ctb rng
 ```
 
 ### Notes
-When there are multiple copies of the same enemy some additional RNG advances are performed:
-- the RNG array corrisponding to the first duplicate enemy is advanced once for every duplicate enemy
-- the RNG array corresponding to the each duplicate enemy is advanced once
+When there are multiple copies of the same monster some additional RNG advances are performed:
+- the RNG array corrisponding to the first duplicate monster is advanced once for every duplicate monster
+- the RNG array corresponding to the each duplicate monster is advanced once
 
 It is currently not known how these RNG values are used.
