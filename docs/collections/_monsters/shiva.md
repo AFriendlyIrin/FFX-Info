@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Shiva
+  name: Shiva (Belgemine in Calm Lands)
   poison_tick_damage: 3750
   stats:
     accuracy: 0

@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Head#2
+  name: Head (Ultima Buster)
   poison_tick_damage: 20000
   stats:
     accuracy: 0

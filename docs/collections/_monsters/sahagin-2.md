@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Sahagin#2
+  name: Sahagin (Via Purifico underwater)
   poison_tick_damage: 95
   stats:
     accuracy: 0

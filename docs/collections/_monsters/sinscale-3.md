@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Sinscale#3
+  name: Sinscale (Sinspawn Echuilles)
   poison_tick_damage: 25
   stats:
     accuracy: 100

@@ -236,5 +236,5 @@ monster_data:
     base_chance: 255
   undead: false
   zanmato_level: 3
-monster_id: geneaux's-tentacle
+monster_id: geneauxs-tentacle
 ---

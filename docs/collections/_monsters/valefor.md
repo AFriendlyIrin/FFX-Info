@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Valefor
+  name: Valefor (Pterya)
   poison_tick_damage: 3000
   stats:
     accuracy: 0

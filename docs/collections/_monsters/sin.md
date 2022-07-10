@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Sin
+  name: Sin Fin
   poison_tick_damage: 500
   stats:
     accuracy: 0

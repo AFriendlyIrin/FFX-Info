@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Ragora#2
+  name: Ragora (forced encounter)
   poison_tick_damage: 130
   stats:
     accuracy: 0

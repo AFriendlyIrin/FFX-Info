@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Evil Eye#2
+  name: Evil Eye (Home)
   poison_tick_damage: 107
   stats:
     accuracy: 0

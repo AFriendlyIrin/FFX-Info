@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Anima#2
+  name: Anima (Belgemine)
   poison_tick_damage: 13500
   stats:
     accuracy: 0

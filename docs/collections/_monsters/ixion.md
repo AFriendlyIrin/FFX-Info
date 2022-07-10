@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Ixion
+  name: Ixion (Belgemine in Moonflow)
   poison_tick_damage: 1500
   stats:
     accuracy: 0

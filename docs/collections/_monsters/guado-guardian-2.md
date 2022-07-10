@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Guado Guardian#2
+  name: Guado Guardian (Macalania)
   poison_tick_damage: 300
   stats:
     accuracy: 0

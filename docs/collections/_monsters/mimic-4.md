@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Mimic#4
+  name: Mimic (Basilisk)
   poison_tick_damage: 10000
   stats:
     accuracy: 0

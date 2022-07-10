@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: ???
+  name: "??? (Kimahri)"
   poison_tick_damage: 187
   stats:
     accuracy: 10
@@ -236,5 +236,5 @@ monster_data:
     base_chance: 255
   undead: false
   zanmato_level: 3
-monster_id: ???
+monster_id: kimahri
 ---

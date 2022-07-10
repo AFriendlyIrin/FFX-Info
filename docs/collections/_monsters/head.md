@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Head
+  name: Head (Sinspawn Gui)
   poison_tick_damage: 1000
   stats:
     accuracy: 0

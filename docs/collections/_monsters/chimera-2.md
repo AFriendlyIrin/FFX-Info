@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Chimera#2
+  name: Chimera (Home)
   poison_tick_damage: 450
   stats:
     accuracy: 0

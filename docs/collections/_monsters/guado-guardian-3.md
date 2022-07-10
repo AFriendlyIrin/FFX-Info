@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Guado Guardian#3
+  name: Guado Guardian (Home)
   poison_tick_damage: 650
   stats:
     accuracy: 0

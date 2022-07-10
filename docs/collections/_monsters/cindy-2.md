@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Cindy#2
+  name: Cindy (Belgemine)
   poison_tick_damage: 12000
   stats:
     accuracy: 0

@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Gemini
+  name: Gemini (Club)
   poison_tick_damage: 7200
   stats:
     accuracy: 9

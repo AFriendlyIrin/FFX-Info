@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Guado Guardian
+  name: Guado Guardian (Seymour)
   poison_tick_damage: 500
   stats:
     accuracy: 100

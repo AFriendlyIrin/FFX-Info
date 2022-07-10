@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Fallen Monk#2
+  name: Fallen Monk (Fire Rifle)
   poison_tick_damage: 825
   stats:
     accuracy: 0

@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Arm
+  name: Arm (Sinspawn Gui)
   poison_tick_damage: 200
   stats:
     accuracy: 0

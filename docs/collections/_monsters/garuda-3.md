@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Garuda#3
+  name: Garuda (Besaid)
   poison_tick_damage: 350
   stats:
     accuracy: 0

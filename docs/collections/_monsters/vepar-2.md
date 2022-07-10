@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Vepar#2
+  name: Vepar (2 fish)
   poison_tick_damage: 300
   stats:
     accuracy: 0

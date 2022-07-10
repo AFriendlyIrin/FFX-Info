@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Gemini#3
+  name: Gemini (Sword)
   poison_tick_damage: 7200
   stats:
     accuracy: 0

@@ -236,5 +236,5 @@ monster_data:
     base_chance: 255
   undead: false
   zanmato_level: 4
-monster_id: braska's-final-aeon
+monster_id: braskas-final-aeon
 ---

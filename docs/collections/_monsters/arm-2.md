@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Arm#2
+  name: Arm (Ultima Buster)
   poison_tick_damage: 20000
   stats:
     accuracy: 0

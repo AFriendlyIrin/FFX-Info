@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Dingo#2
+  name: Dingo (forced encounter)
   poison_tick_damage: 31
   stats:
     accuracy: 0

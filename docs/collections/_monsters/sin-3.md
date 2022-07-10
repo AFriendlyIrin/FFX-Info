@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Sin#3
+  name: Overdrive Sin
   poison_tick_damage: 35000
   stats:
     accuracy: 0

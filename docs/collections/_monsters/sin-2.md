@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Sin#2
+  name: Sin Core
   poison_tick_damage: 9000
   stats:
     accuracy: 0

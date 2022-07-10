@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Raldo#2
+  name: Raldo (forced encounter)
   poison_tick_damage: 60
   stats:
     accuracy: 0

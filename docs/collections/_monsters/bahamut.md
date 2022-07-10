@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Bahamut
+  name: Bahamut (Spathi)
   poison_tick_damage: 5000
   stats:
     accuracy: 0

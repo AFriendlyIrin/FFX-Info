@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Garuda#2
+  name: Garuda (Luca)
   poison_tick_damage: 180
   stats:
     accuracy: 20

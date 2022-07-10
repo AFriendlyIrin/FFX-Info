@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Yojimbo
+  name: Yojimbo (Lady Ginnem)
   poison_tick_damage: 8250
   stats:
     accuracy: 0

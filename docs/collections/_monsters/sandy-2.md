@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Sandy#2
+  name: Sandy (Belgemine)
   poison_tick_damage: 8750
   stats:
     accuracy: 0

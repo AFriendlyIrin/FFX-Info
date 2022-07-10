@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Sinscale#6
+  name: Sinscale (Dream Zanarkand)
   poison_tick_damage: 25
   stats:
     accuracy: 0

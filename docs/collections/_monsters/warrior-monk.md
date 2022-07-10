@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Warrior Monk
+  name: Warrior Monk (Rifle)
   poison_tick_damage: 350
   stats:
     accuracy: 0

@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Mimic
+  name: Mimic (Dual Horn)
   poison_tick_damage: 15000
   stats:
     accuracy: 0

@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Splasher
+  name: Splasher (1 fish)
   poison_tick_damage: 50
   stats:
     accuracy: 0

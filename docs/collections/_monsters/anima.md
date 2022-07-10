@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Anima
+  name: Anima (Seymour)
   poison_tick_damage: 4500
   stats:
     accuracy: 30

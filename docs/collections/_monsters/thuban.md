@@ -236,5 +236,5 @@ monster_data:
     base_chance: 255
   undead: false
   zanmato_level: 4
-monster_id: th'uban
+monster_id: thuban
 ---

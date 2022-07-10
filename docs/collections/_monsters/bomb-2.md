@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Bomb#2
+  name: Bomb (Home)
   poison_tick_damage: 550
   stats:
     accuracy: 0

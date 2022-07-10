@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Ifrit#2
+  name: Ifrit (Grothia)
   poison_tick_damage: 2000
   stats:
     accuracy: 0

@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Bunyip#2
+  name: Bunyip
   poison_tick_damage: 100
   stats:
     accuracy: 0

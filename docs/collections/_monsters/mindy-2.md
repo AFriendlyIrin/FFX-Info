@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Mindy#2
+  name: Mindy (Belgemine)
   poison_tick_damage: 5000
   stats:
     accuracy: 0

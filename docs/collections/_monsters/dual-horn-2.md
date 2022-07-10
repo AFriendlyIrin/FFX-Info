@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Dual Horn#2
+  name: Dual Horn (Home)
   poison_tick_damage: 948
   stats:
     accuracy: 0

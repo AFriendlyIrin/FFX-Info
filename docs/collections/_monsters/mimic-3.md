@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Mimic#3
+  name: Mimic (Garuda)
   poison_tick_damage: 10000
   stats:
     accuracy: 0

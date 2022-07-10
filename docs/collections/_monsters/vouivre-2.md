@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Vouivre#2
+  name: Vouivre (forced encounter)
   poison_tick_damage: 63
   stats:
     accuracy: 25

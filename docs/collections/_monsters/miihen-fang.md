@@ -236,5 +236,5 @@ monster_data:
     base_chance: 255
   undead: false
   zanmato_level: 0
-monster_id: mi'ihen-fang
+monster_id: miihen-fang
 ---

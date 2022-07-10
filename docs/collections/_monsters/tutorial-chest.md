@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: ???#3
+  name: "??? (Tutorial Chest)"
   poison_tick_damage: 0
   stats:
     accuracy: 0
@@ -236,5 +236,5 @@ monster_data:
     base_chance: 255
   undead: false
   zanmato_level: 0
-monster_id: ???-3
+monster_id: tutorial-chest
 ---

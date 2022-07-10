@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Sahagin#4
+  name: Sahagin (forced encounter)
   poison_tick_damage: 25
   stats:
     accuracy: 25

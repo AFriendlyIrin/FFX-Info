@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Water Flan#2
+  name: Water Flan (forced encounter)
   poison_tick_damage: 80
   stats:
     accuracy: 0

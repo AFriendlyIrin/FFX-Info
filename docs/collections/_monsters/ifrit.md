@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Ifrit
+  name: Ifrit (Belgemine in Mi'ihen Highroad)
   poison_tick_damage: 875
   stats:
     accuracy: 0

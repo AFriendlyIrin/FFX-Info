@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Mech Scouter#2
+  name: Mech Scouter (Burning)
   poison_tick_damage: 687
   stats:
     accuracy: 0

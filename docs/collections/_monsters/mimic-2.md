@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Mimic#2
+  name: Mimic (Mech)
   poison_tick_damage: 10000
   stats:
     accuracy: 0

@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Condor#2
+  name: Condor (forced encounter)
   poison_tick_damage: 23
   stats:
     accuracy: 0

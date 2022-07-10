@@ -190,7 +190,7 @@ monster_data:
     overkill:
       common: Nothing
       rare: Nothing
-  name: Piranha#2
+  name: Piranha (2 fish)
   poison_tick_damage: 25
   stats:
     accuracy: 0
