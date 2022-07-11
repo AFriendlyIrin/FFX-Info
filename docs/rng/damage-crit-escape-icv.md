@@ -21,7 +21,7 @@ There are multiple formulas the game uses to calculate damage (including healing
 ### Formula
 Before doing any damage calculation the game advances damage RNG and after calculating the base damage value, it uses the RNG value to determine the exact amount of damage to deal:
 ```
-damage rng = rng value modulo 31
+damage rng = rng value MOD 31
 damage roll = damage rng + 240
 damage value = (base damage value * damage roll) // 256
 ```
@@ -36,7 +36,7 @@ A lot of monster actions can potentially deal a critical hit but never do so bec
 ### Formula
 If the action is able to do a critical hit the game advances crit RNG before damage calculations:
 ```
-crit rng = rng value modulo 101
+crit rng = rng value MOD 101
 crit chance = user luck - target luck
 if the action uses the bonus equipment crit:
     crit chance += bonus equipment crit
@@ -69,14 +69,14 @@ For characters:
 ```
 base ctb = base ctb array [character agility]
 icv variance = icv variance array [character agility] + 1
-icv rng = rng value modulo icv variance
+icv rng = rng value MOD icv variance
 icv = (base ctb * 3) + ctb rng
 ```
 
 For monsters:
 ```
 base ctb = base ctb array [monster]
-ctb rng = 100 - (rng value modulo 11)
+ctb rng = 100 - (rng value MOD 11)
 icv = (base ctb * 300) // ctb rng
 ```
 

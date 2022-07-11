@@ -24,7 +24,7 @@ A status landing chance of 255 or 254 and a status resistance of 255 are special
 If all of the checks fail the game calculates the actual status chance and compares it to the RNG value:
 ```
 status chance = action/item status landing chance - target status resistance
-status rng = rng value modulo 101
+status rng = rng value MOD 101
 if status chance > status rng then apply the status
 ```
 
