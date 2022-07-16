@@ -40,6 +40,9 @@ else the condition is ambush
 if the encounter has a forced condition use that instead
 ```
 
+### Notes
+Since forced encounters use only 1 RNG value and random encounters use 2 RNG values it is possible to change the formations in the future random encounters: by getting an additional forced encounter (thus advancing RNG1 once) the values that would have been used to determine encounter formation now will be used to determine encounter condition and the one used for encounter condition now will determine the formation for the next encounter; it's possible to get an additional forced encounter by interacting with the Lord Ochu in Kilika Woods, the Guados chasing you in Macalania Temple, the Sandragoras in Sanubia Desert (West) or by starting a [simulation encounter](../game-mechanics/sim-encounters).
+
 ## Encounter checks
 
 ### Mechanics
@@ -61,3 +64,8 @@ check value = (check counter * 256) // threat modifier
 if check rng < check value then trigger an encounter and reset the counters
 else increase the check counter by 1
 ```
+
+### Notes
+When trying to force random encounters it's beneficial to move as fast as possible by not doing sharp turns since movement speed is lowered during the turn animation.
+
+While it is technically possible to plan a steproute for a specific seed to artificially lower encounter rate it's not easy to exactly figure out how many times RNG0 has been advanced and given how movement works in FFX it's not easy to have perfectly consistent movement either; it is possible however to know somewhat accurately how many encounters there will be in each screen for a specific seed by just playing it through a handful of times.
