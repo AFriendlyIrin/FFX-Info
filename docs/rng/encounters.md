@@ -2,7 +2,7 @@
 parent: "RNG"
 title: "Encounters"
 ---
-# Encounters
+# {{ page.title }}
 {: .no_toc }
 
 ## Table of contents

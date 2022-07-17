@@ -2,7 +2,7 @@
 parent: "RNG"
 title: "Damage, crit, escape and ICV"
 ---
-# Damage, crit and escape
+# {{ page.title }}
 {: .no_toc }
 
 These mechanics are related because they use the same RNG arrays to determine their randomness, 20-26 for party members (RNG20 for Tidus, RNG21 for Yuna, etc.), 27 for Seymour and all Aeons, 28-35 for monsters (RNG28 for the monster in slot 1, RNG29 for the monster in slot 2, etc.).

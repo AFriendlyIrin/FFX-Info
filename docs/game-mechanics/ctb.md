@@ -2,7 +2,7 @@
 parent: "Game mechanics"
 title: "CTB"
 ---
-# CTB
+# {{ page.title }}
 {: .no_toc }
 
 CTB stands for Conditional Time Battle, it's the system the game uses to determine turn order in battle.

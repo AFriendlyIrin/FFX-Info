@@ -2,7 +2,7 @@
 parent: "RNG"
 title: "HD Seeds"
 ---
-# HD Seeds
+# {{ page.title }}
 {: .no_toc }
 
 ## Table of contents

@@ -2,7 +2,7 @@
 parent: "RNG"
 title: "Status chance"
 ---
-# Status chance
+# {{ page.title }}
 {: .no_toc }
 
 ## Table of contents

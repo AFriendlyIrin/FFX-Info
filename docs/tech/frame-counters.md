@@ -2,7 +2,7 @@
 parent: "Tech"
 title: "Frame counters"
 ---
-# Frame counters
+# {{ page.title }}
 {: .no_toc }
 
 ## Table of contents

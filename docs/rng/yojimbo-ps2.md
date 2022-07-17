@@ -2,7 +2,7 @@
 parent: "RNG"
 title: "Yojimbo (PS2 version)"
 ---
-# Yojimbo
+# {{ page.title }}
 {: .no_toc }
 **Important note**: the information in this page are based on the PS2 version, you can find information based on the HD version [here](./yojimbo-hd).
 
