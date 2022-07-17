@@ -1,6 +1,6 @@
 ---
 title: "Monsters"
-nav_order: 1
+nav_order: 12
 ---
 # {{ page.title }}
 In this section you will find a list of all the monsters present in the game files, even some that can't be encountered by normal means.

@@ -1,0 +1,69 @@
+---
+zone_data:
+  formations:
+  - - skoll
+    - flame-flan
+    - mech-scouter
+  - - skoll
+    - flame-flan
+    - mech-scouter
+  - - skoll
+    - flame-flan
+    - mech-scouter
+  - - skoll
+    - flame-flan
+    - mech-scouter
+  - - skoll
+    - flame-flan
+    - mech-scouter
+  - - nebiros
+    - shred
+    - flame-flan
+  - - nebiros
+    - shred
+    - flame-flan
+  - - nebiros
+    - shred
+    - flame-flan
+  - - nebiros
+    - shred
+    - flame-flan
+  - - nebiros
+    - shred
+    - flame-flan
+  - - nebiros
+    - nebiros
+    - skoll
+    - mech-scouter
+  - - nebiros
+    - nebiros
+    - skoll
+    - mech-scouter
+  - - nebiros
+    - nebiros
+    - skoll
+    - mech-scouter
+  - - nebiros
+    - nebiros
+    - skoll
+    - mech-scouter
+  - - nebiros
+    - nebiros
+    - skoll
+    - mech-scouter
+  - - chimera-brain
+    - chimera-brain
+  - - malboro
+  - - anacondaur
+    - anacondaur
+  - - ogre
+    - skoll
+    - skoll
+  - - mech-scouter-2
+    - coeurl
+    - mech-scouter-2
+  - - coeurl
+    - coeurl
+  name: Calm Lands (Central-North-East)
+zone_id: calm-lands-central-north-east
+---

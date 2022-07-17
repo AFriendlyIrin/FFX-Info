@@ -1,0 +1,53 @@
+---
+zone_data:
+  formations:
+  - - skoll
+    - flame-flan
+    - mech-scouter
+  - - nebiros
+    - shred
+    - flame-flan
+  - - mech-scouter
+    - nebiros
+    - skoll
+  - - chimera-brain
+    - chimera-brain
+  - - chimera-brain
+    - chimera-brain
+  - - chimera-brain
+    - chimera-brain
+  - - chimera-brain
+    - chimera-brain
+  - - chimera-brain
+    - chimera-brain
+  - - malboro
+  - - malboro
+  - - malboro
+  - - malboro
+  - - malboro
+  - - anacondaur
+    - anacondaur
+  - - anacondaur
+    - anacondaur
+  - - anacondaur
+    - anacondaur
+  - - anacondaur
+    - anacondaur
+  - - ogre
+    - skoll
+    - skoll
+  - - ogre
+    - skoll
+    - skoll
+  - - ogre
+    - skoll
+    - skoll
+  - - ogre
+    - skoll
+    - skoll
+  - - mech-scouter-2
+    - coeurl
+    - mech-scouter-2
+  name: Calm Lands (North-West)
+zone_id: calm-lands-north-west
+---

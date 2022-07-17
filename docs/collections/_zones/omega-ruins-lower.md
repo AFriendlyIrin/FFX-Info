@@ -1,0 +1,46 @@
+---
+zone_data:
+  formations:
+  - - master-coeurl
+    - floating-death
+    - master-coeurl
+  - - halma
+    - spirit
+    - halma
+  - - zaurus
+    - floating-death
+    - zaurus
+  - - black-element
+    - spirit
+    - black-element
+  - - varuna
+  - - master-tonberry
+  - - adamantoise
+  - - machea
+    - machea
+  - - defender-z
+    - defender-z
+  - - demonolith
+    - demonolith
+  - - great-malboro
+  - - zaurus
+    - chest
+  - - zaurus
+    - chest
+  - - zaurus
+    - chest
+  - - zaurus
+    - mimic
+  - - zaurus
+    - mimic-2
+  - - zaurus
+    - mimic-3
+  - - zaurus
+    - mimic-4
+  - - puroboros
+    - puroboros
+    - puroboros
+  - - wraith
+  name: Omega Ruins (Lower)
+zone_id: omega-ruins-lower
+---

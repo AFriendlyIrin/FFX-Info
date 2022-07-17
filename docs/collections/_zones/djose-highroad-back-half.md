@@ -1,0 +1,48 @@
+---
+zone_data:
+  formations:
+  - - garm
+    - bunyip-2
+    - snow-flan
+  - - garm
+    - bunyip-2
+    - snow-flan
+  - - garm
+    - bunyip-2
+    - snow-flan
+  - - garm
+    - bunyip-2
+    - snow-flan
+  - - garm
+    - bunyip-2
+    - simurgh
+  - - garm
+    - bunyip-2
+    - simurgh
+  - - gandarewa
+    - funguar
+    - gandarewa
+  - - gandarewa
+    - gandarewa
+    - snow-flan
+  - - basilisk
+    - funguar
+    - funguar
+  - - basilisk
+    - funguar
+    - funguar
+  - - basilisk
+    - funguar
+    - funguar
+  - - simurgh
+    - bite-bug
+    - bite-bug
+  - - basilisk
+    - basilisk
+  - - basilisk
+    - basilisk
+  - - basilisk
+    - basilisk
+  name: Djose Highroad (Back Half)
+zone_id: djose-highroad-back-half
+---

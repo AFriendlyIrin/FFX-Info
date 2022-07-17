@@ -1,0 +1,32 @@
+---
+layout: page
+---
+{% capture md %}
+# {{ page.zone_data.name }}
+{: .no_toc }
+
+{{ content }}
+
+## Table of contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+## Formations
+
+| #   | Slot 1 | Slot 2 | Slot 3 | Slot 4 |
+| --- | ------ | ------ | ------ | ------ |
+{% assign formation_counter = 0 -%}
+{%- for formation in page.zone_data.formations -%}
+{%- assign formation_counter = formation_counter | plus: 1 -%}
+| {{ formation_counter }} 
+{%- for monster_id in formation -%}
+{%- assign monster_page = site.monsters | where: "monster_id", monster_id | first -%}
+| [{{ monster_page.monster_data.name }}](../monsters/{{ monster_id }}) 
+{%- endfor -%}
+|
+{% endfor %}
+
+{% endcapture %}
+{{ md | markdownify }}

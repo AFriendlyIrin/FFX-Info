@@ -1,0 +1,61 @@
+---
+zone_data:
+  formations:
+  - - vouivre
+    - ipiria
+    - thunder-flan
+  - - vouivre
+    - ipiria
+    - thunder-flan
+  - - vouivre
+    - ipiria
+    - thunder-flan
+  - - ipiria
+    - vouivre
+    - floating-eye
+  - - ipiria
+    - vouivre
+    - floating-eye
+  - - ipiria
+    - vouivre
+    - floating-eye
+  - - vouivre
+    - floating-eye
+    - thunder-flan
+  - - vouivre
+    - floating-eye
+    - thunder-flan
+  - - vouivre
+    - floating-eye
+    - thunder-flan
+  - - vouivre
+    - thunder-flan
+  - - vouivre
+    - thunder-flan
+  - - vouivre
+    - thunder-flan
+  - - thunder-flan
+    - bomb
+    - bomb
+  - - thunder-flan
+    - bomb
+    - bomb
+  - - dual-horn
+    - thunder-flan
+  - - dual-horn
+    - thunder-flan
+  - - vouivre
+    - dual-horn
+    - dual-horn
+  - - vouivre
+    - dual-horn
+    - dual-horn
+  - - bomb
+    - dual-horn
+    - bomb
+  - - bomb
+    - dual-horn
+    - bomb
+  name: Old Road
+zone_id: old-road
+---

@@ -4,6 +4,11 @@ defaults:
       type: "monsters"
     values:
       layout: "monsters"
+  - scope:
+      path: ""
+      type: "zones"
+    values:
+      layout: "zones"
 
 markdown: kramdown
 permalink: /:path/:basename
@@ -34,3 +39,7 @@ collections:
   monsters:
     output: true
     permalink: /:collection/:name
+  zones:
+    output: true
+    permalink: /:collection/:name
+  

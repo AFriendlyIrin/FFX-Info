@@ -1,0 +1,58 @@
+---
+zone_data:
+  formations:
+  - - white-element
+    - miihen-fang
+    - floating-eye
+  - - white-element
+    - miihen-fang
+    - floating-eye
+  - - white-element
+    - miihen-fang
+    - floating-eye
+  - - miihen-fang
+    - white-element
+    - raldo-2
+  - - miihen-fang
+    - white-element
+    - raldo-2
+  - - miihen-fang
+    - white-element
+    - raldo-2
+  - - miihen-fang
+    - raldo-2
+    - floating-eye
+  - - miihen-fang
+    - raldo-2
+    - floating-eye
+  - - miihen-fang
+    - raldo-2
+    - floating-eye
+  - - raldo-2
+    - white-element
+    - floating-eye
+  - - raldo-2
+    - white-element
+    - floating-eye
+  - - raldo-2
+    - white-element
+    - floating-eye
+  - - dual-horn
+    - miihen-fang
+  - - dual-horn
+    - miihen-fang
+  - - bomb
+    - bomb
+    - dual-horn
+  - - floating-eye
+    - bomb
+    - floating-eye
+  - - floating-eye
+    - bomb
+    - floating-eye
+  - - bomb
+    - bomb
+    - bomb
+  name: Mi'ihen Screen 2-3
+zone_id: mi'ihen-screen-2-3
+---

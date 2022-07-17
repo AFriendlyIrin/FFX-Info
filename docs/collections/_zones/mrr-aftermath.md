@@ -1,0 +1,54 @@
+---
+zone_data:
+  formations:
+  - - lamashtu
+    - raptor
+    - red-element
+  - - lamashtu
+    - raptor
+    - red-element
+  - - lamashtu
+    - raptor
+    - red-element
+  - - lamashtu
+    - gandarewa
+    - red-element
+  - - lamashtu
+    - gandarewa
+    - red-element
+  - - lamashtu
+    - gandarewa
+    - red-element
+  - - raptor
+    - red-element
+    - gandarewa
+  - - raptor
+    - red-element
+    - gandarewa
+  - - raptor
+    - red-element
+    - gandarewa
+  - - raptor
+    - funguar
+    - funguar
+  - - raptor
+    - funguar
+    - funguar
+  - - raptor
+    - funguar
+    - funguar
+  - - raptor
+    - funguar
+    - red-element
+  - - raptor
+    - funguar
+    - red-element
+  - - funguar
+    - red-element
+    - gandarewa
+  - - funguar
+    - red-element
+    - gandarewa
+  name: MRR - Aftermath
+zone_id: mrr-aftermath
+---
