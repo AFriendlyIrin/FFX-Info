@@ -16,7 +16,7 @@ CTB stands for Conditional Time Battle, it's the system the game uses to determi
 ## Mechanics
 Each character and monster has a Base CTB, the higher their Agility, the lower their base CTB. At the start of an encounter each character and monster is assigned a CTB Value (you can find a detailed explanation [here](../rng/damage-crit-escape-icv.md#icv)), then the game starts decreasing everyones CTB Value until someone has a CTB Value of 0, then that character/monster takes their turn and their CTB Value is set to `Base CTB * Action Rank`, continuing the process until the encounter is over.
 
-If more than one character/monster has a CTB Value of 0, they get ordered based on their Agility stat (who has higher Agility goes first); if there is still a tie characters have priority over monsters and lower indexes have priority over higher indexes: Tidus (character index 0) has priority over everyone else, Wakka (4) has priority over Lulu (5) and Rikku (6); the monster in slot 1 has priority over the other monsters, the monster in slot 3 has priority over monsters in slots 4 to 8.
+If more than one character/monster has a CTB Value of 0, characters get priority over monsters; if there is still a tie (meaning multiple characters or monsters or both have 0 CTB) they get ordered based on their Agility stat (who has higher Agility goes first) and lower indexes have priority over higher indexes: Tidus (character index 0) has priority over everyone else, Wakka (4) has priority over Lulu (5) and Rikku (6); the monster in slot 1 has priority over the other monsters, the monster in slot 3 has priority over monsters in slots 4 to 8.
 
 If an action is performed under the Haste status the CTB Value is divided in half, rounding up; under the Slow status the CTB Value is doubled.
 
@@ -26,7 +26,7 @@ When a character is revived or is cured from the Petrify status their CTB Value 
 Each possible value of the Agility stat and its corresponding Base CTB and ICV Variance:
 
 | Agility | Base CTB | ICV Variance |
-| -----:  | -------: | -----------: |
+| ------: | -------: | -----------: |
 | 1       | 28       | 1            |
 | 2       | 26       | 1            |
 | 3       | 24       | 1            |

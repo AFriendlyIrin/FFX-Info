@@ -236,5 +236,5 @@ monster_data:
     base_chance: 255
   undead: false
   zanmato_level: 0
-monster_id: mech_scouter-2
+monster_id: mech-scouter-2
 ---

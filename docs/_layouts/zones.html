@@ -15,8 +15,12 @@ layout: page
 
 ## Formations
 
-| #   | Slot 1 | Slot 2 | Slot 3 | Slot 4 |
-| --- | ------ | ------ | ------ | ------ |
+{% assign columns = 0 -%}
+{%- for formation in page.zone_data.formations -%}
+{%- assign columns = columns | at_least: formation.size -%}
+{%- endfor %}
+| Formation # | {% for i in (1..columns) %} Slot {{ i }} |{% endfor %}
+| ----------: | {% for i in (1..columns) %} :--- |{% endfor %}
 {% assign formation_counter = 0 -%}
 {%- for formation in page.zone_data.formations -%}
 {%- assign formation_counter = formation_counter | plus: 1 -%}

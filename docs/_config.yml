@@ -18,6 +18,8 @@ remote_theme: just-the-docs/just-the-docs
 aux_links:
   "FFX Info on GitHub":
     - "//github.com/Grayfox96/FFX-Info"
+  "FFX speedrunning Discord":
+    - "https://discord.gg/X3qXHWG"
 
 # Sort order for navigation links
 nav_sort: case_insensitive
@@ -43,3 +45,5 @@ collections:
     output: true
     permalink: /:collection/:name
   
+# Global variables
+speedrunning_discord_url: https://discord.gg/X3qXHWG
