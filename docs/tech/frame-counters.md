@@ -29,3 +29,5 @@ The following table represents the most common frame counters:
 | FFX.exe+1F328D0 |  30 |              N/A |      Yes |
 | FFX.exe+1F328D4 |  30 |              N/A |      Yes |
 | FFX.exe+1FCBBF0 |  30 |              N/A |      Yes |
+
+Written by [{{ site.contributors.peppy.name }}]({{ site.contributors.peppy.url }})

@@ -46,4 +46,15 @@ collections:
     permalink: /:collection/:name
   
 # Global variables
-speedrunning_discord_url: https://discord.gg/X3qXHWG
+speedrunning_discord_url: "https://discord.gg/X3qXHWG"
+
+contributors:
+  loftus:
+    name: "Loftus"
+    url: "https://www.twitch.tv/loftus"
+  peppy:
+    name: "peppy"
+    url: "https://github.com/fkelava"
+  crimsoninferno:
+    name: "CrimsonInferno"
+    url: "https://www.twitch.tv/crimsoninferno9"
