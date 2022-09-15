@@ -77,7 +77,7 @@ If Tidus crit at least once or attacked a 5th time (5% chance, depends on Wendig
 *   Tidus > Attack > Wendigo
 
 ## Evrae strategy (Spiral Cut and Tallboy Mix)
-This strategy requires a Lv. 4 Key Sphere (one can be picked up right after the forced Chimeras and Guado encounter, on the right after the stairs) and a Yellow Sphere (Seymour always drops either Blk Magic or Special Spheres, both work) for a Mix; the formation should be Tidus/Rikku/Kimahri.
+This strategy requires a Lv. 4 Key Sphere (one can be picked up right after the forced Chimeras and Guado encounter, on the left after the stairs) and a Yellow Sphere (Seymour always drops either Blk Magic or Special Spheres, both work) for a Mix; the formation should be Tidus/Rikku/Kimahri.
 
 This strategy only works 90% of the times if not using any Damaging Item, 99% of the times if using a Lightning Marble/Bomb Core/Arctic Wind, 99.7% of the times if using a Silence Grenade/Smoke Bome/Sleeping Powder (these chances are calculated assuming at least 2.5s remaining when using Spiral Cut).
 
