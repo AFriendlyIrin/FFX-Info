@@ -42,7 +42,7 @@ Formation should be Tidus/Wakka/Auron:
 - Rikku > Use > Petrify Grenade
 
 ### Shadow Gems
-Shadow Gems can only be obtained from Sand Worms in Bikanel, and only as a Common Steal, they deal 1/2 of the enemies' current HP (or 0, if the monster is immune to percentage based damage): they are used mainly in fights 2 and 4 of the Bevelle Guards section but they can also be used as the 1st item in fights 1, 3 and 5 (they will deal 700 damage to the Monks and 1350 damage to the YAT-99), having more than 4 of them is not useful.
+Shadow Gems can only be obtained from Sand Worms in Bikanel, and only as a Common Steal, they deal 1/2 of the enemies' current HP (or 0, if the monster is immune to percentage based damage): they are used mainly in fights 2 and 4 of the Bevelle Guards section but they can also be used as the 1st item in fights 1, 3 and 5 (they will deal 700 damage to the Monks and 1350 damage to the YAT-99), having more than 5 of them is not useful.
 
 ## Elemental Items
 At least an item of each Element is obtained so there is always a fast way to kill Spherimorph without Elemental Shift, some of them can be used as damaging items and some can be used to customize elemental protections for some specific strategies.
