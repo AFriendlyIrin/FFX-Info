@@ -84,7 +84,7 @@ Valefor should get hit by Fire from the Red Element, if she doesn't then Boost a
 ### Strategy for each possible formation
 Read the section above to understand how the fight should look like but if you have trouble following it during runs you can check what the enemy formation is and follow the corresponding strat.
 
-Red Element, Raptor, Lamashtu:
+**Red Element, Raptor, Lamashtu**:
 *   Tidus > Switch > Kimahri
 *   Kimahri > Attack > Lamashtu
 *   Wakka > Attack > Raptor
@@ -94,7 +94,7 @@ Red Element, Raptor, Lamashtu:
 *   Boost (Valefor gets hit by Fire)
 *   Blizzard > Red Element
 
-Lamashtu, Gandarewa, Red Element:
+**Lamashtu, Gandarewa, Red Element**:
 *   Tidus > Switch > Kimahri
 *   Kimahri > Attack > Lamashtu
 *   Wakka > Attack > Gandarewa (if it doesn't die Flee)
@@ -104,7 +104,7 @@ Lamashtu, Gandarewa, Red Element:
 *   Boost (Valefor gets hit by Fire)
 *   Blizzard > Red Element
 
-Funguar, Red Element, Gandarewa:
+**Funguar, Red Element, Gandarewa**:
 *   Tidus > Switch > Kimahri
 *   Kimahri > Lancet > Gandarewa
 *   Wakka > Attack > Gandarewa
@@ -114,7 +114,7 @@ Funguar, Red Element, Gandarewa:
 *   Boost (Valefor gets hit by Fire)
 *   Blizzard > Red Element
 
-Raptor, Red Element, Gandarewa:
+**Raptor, Red Element, Gandarewa**:
 *   If Kimahri needs AP:
     *   Tidus > Switch > Kimahri
     *   Kimahri > Defend
@@ -127,7 +127,7 @@ Raptor, Red Element, Gandarewa:
 *   Boost (Valefor gets hit by Fire)
 *   Blizzard > Red Element
 
-Raptor, Funguar, Red Element:
+**Raptor, Funguar, Red Element**:
 *   If Kimahri needs AP:
     *   Tidus > Switch > Kimahri
     *   Kimahri > Defend

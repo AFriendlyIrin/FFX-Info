@@ -13,13 +13,13 @@ These mechanics are related because they use the same RNG arrays to determine th
 1. TOC
 {:toc}
 
-## Damage
+## Damage Variance
 
 ### Mechanics
 There are multiple formulas the game uses to calculate damage (including healing) using both the user's and the target's stats. Some damage formulas don't use stats at all, for example the ones used for damaging Items and Rikku Mixes, and some damage formulas don't take RNG into account (despite still advancing it), for example the one used to calculate healing from Items.
 
 ### Formula
-Before doing any damage calculation the game advances damage RNG and after calculating the base damage value, it uses the RNG value to determine the exact amount of damage to deal:
+Before doing any damage calculation the game advances damage RNG and after calculating the base damage value (the damage that would be dealt if there was no damage variance), it uses the RNG value to determine the exact amount of damage to deal:
 ```
 damage rng = rng value MOD 31
 damage roll = damage rng + 240
@@ -63,7 +63,7 @@ ICV stands for Initial Counter Value, it determines the initial amount of CTB ti
 - otherwise the game proceeds with ICV calculations normally, advancing RNG once for each character and each monster.
 
 ### Formula
-You can find the Base CTB and ICV Variance values [here](../game-mechanics/ctb.md#ctb-table)
+You can find the Base CTB, ICV Variance and the ICV ranges [here](../game-mechanics/ctb.md#ctb-table).
 
 For characters:
 ```
@@ -86,3 +86,5 @@ When there are multiple copies of the same monster some additional RNG advances 
 - the RNG array corresponding to the each duplicate monster is advanced once
 
 It is currently not known how these RNG values are used.
+
+While for characters every value in the range of ICV Values is equally likely, for monsters that is not the case: for example a monster with 15 Agility will have 3/11 chance of having 36 ICV, 3/11 chance of 37 ICV, 2/11 chance of 38 ICV, 2/11 of 39 ICV and 1/11 chance of 40 ICV.

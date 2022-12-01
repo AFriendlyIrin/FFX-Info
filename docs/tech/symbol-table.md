@@ -12,7 +12,7 @@ title: "Symbol table"
 {:toc}
 
 ## Symbol table
-A list of all currently known symbols (function names, global variable names, and more) in FFX's Steam version. These are official function and variable names obtained by manually matching the decompilation with a version of the game that has unstripped symbols. The raw table in CSV format can be obtained from the Fahrenheit project [here](https://github.com/fkelava/fahrenheit/blob/master/Fahrenheit.Common/Data/WorldMap/FhXSymbolTable.csv).
+A list of all currently known symbols (function names, global variable names, and more) in FFX's Steam version. These are official function and variable names obtained by manually matching the decompilation with a version of the game that has unstripped symbols. The raw table in CSV format can be obtained from the Fahrenheit project [here](https://github.com/fkelava/fahrenheit/blob/master/Fahrenheit.Core.X/Data/FhXSymbolTable.csv).
 
 Symbols mapped: {{ site.data.tech.symbol_table.size }} / 91537
 
