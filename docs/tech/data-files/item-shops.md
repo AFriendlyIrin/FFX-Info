@@ -24,4 +24,4 @@ The item price block is 34 (0x22) bytes long and consists of an unused short tha
 |{% for cell in row %} {{ cell[1] }} |{% endfor %}
 {% endif -%}
 {%- endfor %}
-The block is repeated for every existing shop. The only shop with a shopRatio different from 100 is the Guadosalam item shop, which has 150.
+The block is repeated for every existing shop. The only shop with a shopRatio different from 100 (100% of base price) is the Guadosalam item shop, which has 150 (150% of base price).
