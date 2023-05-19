@@ -1,4 +1,5 @@
 ---
+grand_parent: "Tech"
 parent: "Data Files"
 title: "Item Shops"
 ---
@@ -21,9 +22,10 @@ The item price block is 34 (0x22) bytes long and consists of an unused short tha
 {%- if forloop.first -%}
 |{% for cell in row %} {{ cell[0] }} |{% endfor %}
 |{% for cell in row %} :---: |{% endfor %}
-{% else -%}
-|{% for cell in row %} {{ cell[1] }} |{% endfor %}
 {% endif -%}
-{%- endfor %}
+|{% for cell in row %} {{ cell[1] }} |{% endfor %}
+{% endfor %}
 
 The block is repeated for every existing shop. The only shop with a shopRatio different from 100 (100% of base price) is the Guadosalam item shop, which has 150 (150% of base price).
+
+Written by [{{ site.contributors.evelyntsmg.name }}]({{ site.contributors.evelyntsmg.url }})

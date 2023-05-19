@@ -20,9 +20,8 @@ Symbols mapped: {{ site.data.tech.symbol_table.size }} / 91537
 {%- if forloop.first -%}
 |{% for cell in row %} {{ cell[0] }} |{% endfor %}
 |{% for cell in row %} :---: |{% endfor %}
-{% else -%}
-|{% for cell in row %} {{ cell[1] }} |{% endfor %}
 {% endif -%}
-{%- endfor %}
+|{% for cell in row %} {{ cell[1] }} |{% endfor %}
+{% endfor %}
 
 Written by [{{ site.contributors.peppy.name }}]({{ site.contributors.peppy.url }})

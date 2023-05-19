@@ -1,8 +1,8 @@
-Offset,Type,Name,Notes
-0x0,int,unk1,Unknown
-0x4,int,unk2,Unknown
-0x8,short,unk3,Unknown,
-0xA,short,blockCount,Number of blocks of data in the file **minus one**
-0xC,short,blockSize,Size of a single block of data
-0xE,short,totalBlockSize,Size of all the blocks of data in the file
-0x10,int,blocksStartAddress,Offset of the beginning of the data part of the file
+"Offset","Type","Name","Notes"
+"0x0","int","unk1","Unknown"
+"0x4","int","unk2","Unknown"
+"0x8","short","unk3","Unknown"
+"0xA","short","blockCount","Number of blocks of data in the file **minus one**"
+"0xC","short","blockSize","Size of a single block of data"
+"0xE","short","totalBlockSize","Size of all the blocks of data in the file"
+"0x10","int","blocksStartAddress","Offset of the beginning of the data part of the file"
