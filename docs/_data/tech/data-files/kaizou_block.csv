@@ -1,0 +1,5 @@
+"Offset","Type","Name","Notes"
+"0x0","short","appliesTo","Bitfield determining what kind of equipment the customization can be applied to"
+"0x2","short","autoAbilityId","ID of the auto-ability that can be customized"
+"0x4","short","itemId","ID of the item the customization uses"
+"0x6","short","itemCount","Amount of the item the customization consumes"
