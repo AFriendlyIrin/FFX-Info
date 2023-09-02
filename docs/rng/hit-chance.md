@@ -37,12 +37,15 @@ Then the game uses this table to find the Base Hit chance:
 | 3                | 40              |
 | 4                | 40              |
 | 5                | 50              |
-| 6                | 50              |
+| 6                | 60              |
 | 7                | 80              |
 | 8                | 100             |
 
 ```
 hit rng = rng value MOD 101
+if the character is affected by Dark:
+    base hit chance = (base hit chance * 0x66666667 // 0xFFFFFFFF) // 4
+    (the above is similar to hit chance // 10)
 hit chance = base hit chance + user luck - target luck
 every aim on the user adds 10 to hit chance
 every reflex on the target subtracts 10 from hit chance
@@ -52,7 +55,11 @@ if hit chance > hit rng then the action hits
 ### Monsters
 For monsters the Accuracy Stat has no purpose, every monster action has an accuracy value that is used instead:
 ```
-hit chance = action accuracy - target evasion + user luck - target luck
+hit chance = action accuracy - target evasion
+if the monster is affected by Dark and the action takes Dark into consideration:
+    hit chance = (hit chance * 0x66666667 // 0xFFFFFFFF) // 4
+    (the above is similar to hit chance // 10)
+hit chance = hit chance + user luck - target luck
 every aim on the user adds 10 to hit chance
 every reflex on the target subtracts 10 from hit chance
 if hit chance > hit rng then the action hits

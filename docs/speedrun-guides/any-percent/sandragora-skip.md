@@ -38,7 +38,7 @@ Only the 1st phase of the fight changes, the rest works like normal.
 In this case the strategy is almost identical to the normal one, the only difference is that the first Attack on Wendigo should instead be a Spiral Cut (the target will be reset to Guado Guardian A after using Spiral Cut so it's necessary to switch target to Wendigo again).
 
 ## Wendigo strategy (Spiral Cut and Petrify Grenade)
-The formation should be Tidus/Rikku/Kimahri.
+The formation should be Tidus/Rikku/Kimahri. **Disclaimer**: Petrifying the 2 Guado Guardians will never Overkill them, losing 580 AP compared to the normal strat (`290 * 2 = 580 AP`), this can be relevant for Yuna.
 
 *   Tidus > Haste > Tidus
 *   Tidus > Weapon > Brotherhood

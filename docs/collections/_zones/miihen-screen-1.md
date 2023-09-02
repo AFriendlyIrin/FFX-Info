@@ -16,5 +16,5 @@ zone_data:
   - - bomb
   - - dual-horn
   name: Mi'ihen Screen 1
-zone_id: mi'ihen-screen-1
+zone_id: miihen-screen-1
 ---

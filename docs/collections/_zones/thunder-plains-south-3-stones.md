@@ -17,8 +17,6 @@ zone_data:
     - aerouge
   - - qactuar
     - qactuar
-  - - qactuar
-    - qactuar
     - qactuar
   name: Thunder Plains (South) (3 stones)
 zone_id: thunder-plains-south-3-stones

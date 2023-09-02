@@ -36,5 +36,5 @@ zone_data:
     - bomb
     - bomb
   name: Mi'ihen (Newroad)
-zone_id: mi'ihen-newroad
+zone_id: miihen-newroad
 ---

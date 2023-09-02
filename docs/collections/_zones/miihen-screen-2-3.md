@@ -54,5 +54,5 @@ zone_data:
     - bomb
     - bomb
   name: Mi'ihen Screen 2-3
-zone_id: mi'ihen-screen-2-3
+zone_id: miihen-screen-2-3
 ---

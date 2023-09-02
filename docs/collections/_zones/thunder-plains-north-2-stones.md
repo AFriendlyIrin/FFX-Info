@@ -14,7 +14,6 @@ zone_data:
     - buer
     - kusariqqu
   - - qactuar
-  - - qactuar
     - qactuar
   name: Thunder Plains (North) (2 stones)
 zone_id: thunder-plains-north-2-stones
