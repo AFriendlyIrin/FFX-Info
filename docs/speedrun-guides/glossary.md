@@ -1,6 +1,6 @@
 ---
 parent: "Speedrun guides"
-title: "Lexicon"
+title: "Glossary"
 nav_order: 2
 ---
 # {{ page.title }}
