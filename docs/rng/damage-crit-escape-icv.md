@@ -60,7 +60,8 @@ if escape rng < 191 then escape
 ICV stands for Initial Counter Value, it determines the initial amount of CTB ticks a character/monster needs to wait to take their first turn in battle. At the start of every fight every character (even the ones not in battle, Seymour and the Aeons) is assigned an ICV:
 - if the battle is a Preemptive Strike every character is assigned an ICV of 0 and every monster an ICV equal to `Base CTB * 3`;
 - if the battle is an Ambush every character is assigned an ICV equal to `Base CTB * 3` and every monster an ICV of 0;
-- otherwise the game proceeds with ICV calculations normally, advancing RNG once for each character and each monster.
+- otherwise the game proceeds with ICV calculations normally, advancing RNG once for each character and each monster;
+- if a character has First Strike in their equipment their ICV will be set to 0.
 
 ### Formula
 You can find the Base CTB, ICV Variance and the ICV ranges [here](../game-mechanics/ctb.md#ctb-table).
