@@ -25,8 +25,7 @@ Cutscene Remover. It is a tool developed by the FFX speedrun community with the 
 This is an infamous skip for its difficulty, and considered [TAS](#tas) only. Performing this skips Djose Temple and avoids obtaining Ixion.
 
 ## FS
-First Strike. An ability on weapons that guarantees that the character will act first in battles.
-<!--Considered explaining 0 ICV here and linking to CTB page but I felt like a basic explanation probably sufficies for the purpose of this page-->
+First Strike. An Auto-ability on weapons that guarantees that the character will act first in battles (it sets their ICV to 0, see [here](../rng/damage-crit-escape-icv.md#icv) for a more detailed explanation).
 
 ## FMV Skip
 FMVs (Full-Motion Videos) are pre-rendered cutscenes in the game - the highest detail cutscenes in which the player has no control. In the HD release of the game, it's possible to skip some, but not all of these cutscenes.
@@ -41,7 +40,7 @@ Lightning Steel, the most common Lightningstrike weapon used in speedruns, usefu
 Short for RNG Manipulation. The process of taking specific actions to forge a favorable and predictable outcome.
 
 ## MRR Skip
-Mushroom Rock Road skip. This skip circumvents the majority of Mushroom Rock Road, including the Sinspawn Gui fights and several cutscenes.
+Mushroom Rock Road skip. See [Terra Skip](#terra-skip).
 
 ## NEA/NE Armor
 No Encounter Armor. No Encounters is an ability on armor pieces that prevents all random battles from occurring as long as the armor is equipped.
@@ -50,6 +49,7 @@ The armor is notable for being a very rare drop, and is typically obtained throu
 
 ## Party Formations
 Party formations can be indicated by the initials of each character. For example, "TKR" would mean Tidus, Kimahri, Rikku formation. Any combination of T/Y/A/L/W/K/R can be used to notate a specific formation.
+
 This should not be confused with YKT or YAT, which are machina enemies in the game.
 
 ## RNG Fix
@@ -59,8 +59,8 @@ RNG Fix is a tool that accompanies the [CSR tool](#csr). The RNG Fix addition mo
 S-Claw and P-Claw are Weapons for Rikku with the Auto-abilities Distill Speed and Distill Power respectively, they can be used to [convert Item Drops to Spheres](./any-percent/spheres.md#distillers).
 
 ## SD
-* Skip Dialogue. A notation used in guides to signify that the cutscene contains dialogue that can be skipped.
-* Self-Destruct. One of Kimahri's overdrives - this ability deals 3 times Kimahri's maximum HP.
+*   Skip Dialogue. A notation used in guides to signify that the cutscene contains dialogue that can be skipped.
+*   Self-Destruct. One of Kimahri's overdrives - this ability deals 3 times Kimahri's maximum HP.
 
 ## Seed
 A seed is a starting point for random number generation. After determining a starting seed, it's possible to predict the outcome of events by performing pre-determined actions.
@@ -69,20 +69,20 @@ A seed is a starting point for random number generation. After determining a sta
 Tool-Assisted Speedrun. This is a type of speedrun that utilises input recording and frame advancing tools to achieve the fastest possible speedrun, far beyond human capabilities.
 
 ## Terra Skip
-See [MRR Skip](#mrr-skip).
+This skip circumvents the majority of Mushroom Rock Road, including the Sinspawn Gui fights and several cutscenes.
 
 ## Tetris
 Refers to the Zanarkand trials, in which some of the puzzle elements resemble Tetris pieces.
 
 ## Tier 1/2/3 Items
 Damage items often come in 3 power varities, similar to magic (e.g. Fire, Fira, Firaga).
-* Ice: Antarctic Wind, Arctic Wind, Ice Gem.
-* Fire: Bomb Fragment, Bomb Core, Fire Gem.
-* Lightning: Electro Marble, Lightning Marble, Lightning Gem.
-* Water: Fish Scale, Dragon Scale, Water Gem.
+*   Ice: Antarctic Wind, Arctic Wind, Ice Gem.
+*   Fire: Bomb Fragment, Bomb Core, Fire Gem.
+*   Lightning: Electro Marble, Lightning Marble, Lightning Gem.
+*   Water: Fish Scale, Dragon Scale, Water Gem.
   
 These grenades are also often referred to as "Tier 2":
-* Sleeping Powder, Smoke Bomb, Silence Grenade.
+*   Sleeping Powder, Smoke Bomb, Silence Grenade.
 
 ## UCG
 Ultimate Companion Guide. A highly detailed bestiary written by Pbirdman, containing information on every enemy in the game.
