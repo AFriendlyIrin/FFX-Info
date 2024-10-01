@@ -11,7 +11,7 @@ Unless otherwise stated, all data is written in little endian.
 
 General data files header:
 
-{% for row in site.data.tech.data-files.general_headers -%}
+{% for row in site.data.tech.data-files.general_header -%}
 {%- if forloop.first -%}
 |{% for cell in row %} {{ cell[0] }} |{% endfor %}
 |{% for cell in row %} :---: |{% endfor %}
