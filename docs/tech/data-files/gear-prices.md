@@ -17,12 +17,14 @@ Equipment price is partially determined by its auto-abilities, each of which hav
 
 The full formula for determining equipment price is:
 
-```(50 + sum(ability_value) * slots_factor * empty_slots_factor```
+```(50 + sum(ability_value)) * slots_factor * empty_slots_factor```
 
 where `slots_factor` and `empty_slots_factor` are arrays with indices corresponding to the number of filled and empty slots, respectively. The values for each are as follows:
 
-```EQUIPMENT_SLOTS_GIL_MODIFIERS = (1, 1, 1.5, 3, 5)
-EQUIPMENT_EMPTY_SLOTS_GIL_MODIFIERS = (1, 1, 1.5, 3, 400)```
+```
+EQUIPMENT_SLOTS_GIL_MODIFIERS = (1, 1, 1.5, 3, 5)
+EQUIPMENT_EMPTY_SLOTS_GIL_MODIFIERS = (1, 1, 1.5, 3, 400)
+```
 
 The location of the formula data is currently unknown.
 
