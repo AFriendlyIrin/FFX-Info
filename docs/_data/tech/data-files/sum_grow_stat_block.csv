@@ -1,0 +1,6 @@
+"Offset","Type","Name","Notes"
+"0x0","short","unknown","Always has a value of 0x7F"
+"0x2","short","stat_id",""
+"0x4","short","item_id",""
+"0x6","byte","boost_amount","Stat increment per payment"
+"0x7","byte","unknown","Always has a value of 1"
