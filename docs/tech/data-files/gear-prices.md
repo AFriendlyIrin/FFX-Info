@@ -41,4 +41,4 @@ The gear price block is 4 (0x4) bytes long and consists only of a single integer
 
 The block is repeated for every existing auto-ability (and more if unmodified). The index of the block, that is, the point at which it appears in the file, determines which auto-ability it contains the value for. The first block contains the value of Sensor, the second contains the value of First Strike, the third of Initiative, and so on.
 
-Written by [{{ site.contributors.evelyntsmg.name }}]({{ site.contributors.evelyntsmg.url }})
+Written by [{{ site.contributors.irin.name }}]({{ site.contributors.irin.url }})
