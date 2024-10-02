@@ -38,4 +38,4 @@ The CTB data block is 2 (0x2) bytes long and consists of two 8-bit integers.
 
 The block is repeated for every value of Agility, up to the stat maximum of 255.
 
-Written by [{{ site.contributors.evelyntsmg.name }}]({{ site.contributors.evelyntsmg.url }})
+Written by [{{ site.contributors.irin.name }}]({{ site.contributors.irin.url }})
