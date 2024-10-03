@@ -13,7 +13,7 @@ title: "Equipment Data"
 {:toc}
 
 ## Equipment Data files
-Equipment data is defined in three files: `buki_get.bin`, `shop_arms.bin`, and `weapon.bin`. These files can be found inside the `FFX_Data/ffx_ps2/ffx/master/jppc/battle/kernel` folder in the VBF archive. `buki_get.bun` defines gear obtained from treasure chests, `shop_arms.bin` defines gear sold in shops, and `weapon.bin` defines other pre-existing gear (starting gear, gear obtained in scenes, Celestial weapons, etc.).
+Equipment data is defined in three files: `buki_get.bin`, `shop_arms.bin`, and `weapon.bin`. These files can be found inside the `FFX_Data/ffx_ps2/ffx/master/jppc/battle/kernel` folder in the VBF archive. `buki_get.bin` defines gear obtained from treasure chests, `shop_arms.bin` defines gear sold in shops, and `weapon.bin` defines other pre-existing gear (starting gear, gear obtained in scenes, Celestial weapons, etc.).
 
 ### Block
 In each file the data block is 22 (0x16) bytes long.
