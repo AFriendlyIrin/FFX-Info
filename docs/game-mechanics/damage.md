@@ -12,7 +12,9 @@ title: "Damage"
 {:toc}
 
 ## Mechanics
-Every weapon and ability (magic, skills, etc.) is assigned one of several damage formulas to use. An ability's damage formula can be overridden by a weapon's if the ability has the `use_weapon_props` flag set (see Commands). The ID table for each formula is as follows:
+Every weapon and ability (magic, skills, etc.) is assigned one of several damage formulas to use. An ability's damage formula can be overridden by a weapon's if the ability has the `use_weapon_props` flag set (see Commands). Note that whether an attack is considered physical or magical is determined by a separate variable in the command data, *not* the formula.
+
+The ID table for each formula is as follows:
 
 {% for row in site.data.tech.data-files.gear_block -%}
 {%- if forloop.first -%}
