@@ -13,7 +13,7 @@ title: "Customizations"
 {:toc}
 
 ## Customization data files
-The general data file containing item prices is called `kaizou.bin` and can be found inside the `FFX_Data/ffx_ps2/ffx/master/jppc/battle/kernel` folder in the VBF archive.
+The general data file containing customizations is called `kaizou.bin` and can be found inside the `FFX_Data/ffx_ps2/ffx/master/jppc/battle/kernel` folder in the VBF archive.
 
 ### Block
 The customization block is 8 (0x8) bytes long and consists of four shorts.
