@@ -1,7 +1,8 @@
 "Offset","Type","Name","Notes"
 "0x00","short","offset_name","Offset is relative to end of data blocks"
 "0x02","short","unknown",""
-"0x04","short","hiragana_offset_name","Offset for hiragana string.\n Unused in other languages."
+"0x04","short","hiragana_offset_name","Offset for hiragana string.
+Unused in other languages."
 "0x06","short","unknown",""
 "0x08","short","offset_desc","Offset is relative to end of data blocks"
 "0x0A","short","unknown",""
